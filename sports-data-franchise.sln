@@ -8,12 +8,19 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C441829B-7ED8-4824-BAD0-65920673D71B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37090D04-A6C8-407C-B0F0-DA1F969625D5}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Franchise", "src\SportsData.Franchise\SportsData.Franchise.csproj", "{0468BA9A-4D00-441D-8735-87A84EBF1AAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Franchise", "src\SportsData.Franchise\SportsData.Franchise.csproj", "{0468BA9A-4D00-441D-8735-87A84EBF1AAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Franchise.Tests.Unit", "test\SportsData.Franchise.Tests.Unit\SportsData.Franchise.Tests.Unit.csproj", "{F9E66250-C825-4A42-AEBA-D8A71440AD21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Franchise.Tests.Unit", "test\SportsData.Franchise.Tests.Unit\SportsData.Franchise.Tests.Unit.csproj", "{F9E66250-C825-4A42-AEBA-D8A71440AD21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Franchise.Tests.Integration", "test\SportsData.Franchise.Tests.Integration\SportsData.Franchise.Tests.Integration.csproj", "{D5AFDFB3-E047-46E3-87ED-4D54DAEE1E7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Franchise.Tests.Integration", "test\SportsData.Franchise.Tests.Integration\SportsData.Franchise.Tests.Integration.csproj", "{D5AFDFB3-E047-46E3-87ED-4D54DAEE1E7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
